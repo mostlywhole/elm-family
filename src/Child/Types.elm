@@ -2,15 +2,15 @@ module Child.Types exposing (Model, initModel, Msg(..))
 
 
 type alias Model =
-    { bar : Int
-    , times_notified_parent : Int
+    { hi_fives : Int
+    , times_gifted_parent : Int
     }
 
 
 initModel : Model
 initModel =
-    { bar = 0
-    , times_notified_parent = 0
+    { hi_fives = 0
+    , times_gifted_parent = 0
     }
 
 
@@ -19,10 +19,10 @@ initModel =
    Similar messages to the Parent Type.
 
          * Increment - Increments the bar attribute of our Child Type model
-         * BringGIftToParent - Passes something random to the Parent
+         * BringGiftToParent - Passes something random to the Parent
 -}
 
 
 type Msg
-    = Increment
+    = HiFive
     | BringGiftToParent Int
