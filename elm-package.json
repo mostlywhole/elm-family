@@ -1,8 +1,8 @@
 {
     "version": "1.0.0",
     "summary": "Rudimental demo project of parent-child message passing.",
-    "repository": "https://github.com/user/project.git",
-    "license": "CC",
+    "repository": "https://github.com/mostlywhole/elm-family.git",
+    "license": "unlicense",
     "source-directories": [
         "./src"
     ],
